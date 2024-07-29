@@ -8,17 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let x = 1
-        let y = 2
-        let sum = x + y
-        print(sum)
-        
     }
-
-
+    
+    @IBAction func openSecondVcButton(_ sender: Any) {
+        performSegue(withIdentifier: "segue", sender: nil)
+    }
+    
 }
 
