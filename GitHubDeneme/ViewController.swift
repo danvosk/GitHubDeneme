@@ -11,7 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let x = 1
+        let y = 2
+        let sum = x + y
+        print(sum)
+        
     }
 
 
